@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && firebase deploy" // 빌드하고 배포까지 한 번에 할 수 있는 명령어 (npm run deploy)
+    "deploy": "npm run build && firebase deploy"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
@@ -15,6 +15,7 @@
     "vite": "^5.4.9"
   },
   "dependencies": {
+    "firebase": "^11.0.1",
     "svelte-spa-router": "^4.0.1"
   }
 }

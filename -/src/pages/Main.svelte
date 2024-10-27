@@ -5,21 +5,26 @@
     //Svelte에서 여러 요소에 이벤트 리스너를 추가할 때는 onMount 안에 모든 로직을 포함시키는 것이 좋음
     const signUp = document.querySelector(".signup-btn");
     const logIn = document.querySelector(".login-btn");
+    const playHard = document.querySelector(".hard-btn");
 
     const handleSignup = () => {
       window.location.href = "/#/signup";
     };
-
     const handleLogin = () => {
       window.location.href = "/#/login";
+    };
+    const handleHard = () => {
+      window.location.href = "/#/playhard";
     };
 
     signUp.addEventListener("click", handleSignup);
     logIn.addEventListener("click", handleLogin);
+    playHard.addEventListener("click", handleHard);
 
     return () => {
       signUp.removeEventListener("click", handleSignup);
       logIn.removeEventListener("click", handleLogin);
+      playHard.removeEventListener("click", handleHard);
     };
   });
 </script>
