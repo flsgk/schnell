@@ -1,0 +1,36 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main {
+  margin: 20px 0px 20px 0px;
+}
+
+.level-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.hard-btn {
+  width: 100px;
+  height: 50px;
+}
+.normal-btn {
+  width: 100px;
+  height: 50px;
+}
+.easy-btn {
+  width: 100px;
+  height: 50px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "typing-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy" // 빌드하고 배포까지 한 번에 할 수 있는 명령어 (npm run deploy)
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "svelte": "^5.0.3",
+    "vite": "^5.4.9"
+  },
+  "dependencies": {
+    "svelte-spa-router": "^4.0.1"
+  }
+}
