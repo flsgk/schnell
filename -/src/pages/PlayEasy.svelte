@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { words } from "../hardword.js";
+  import { words } from "../easyword.js";
 
   let randomWords = Array(50).fill(""); //50개의 빈 문자열로 초기화
   let matchedWord = new Set(); // 맞춘 단어를 누적해서 저장
@@ -8,7 +8,7 @@
   let timer; // 타이머 변수
   let gameStarted = false;
   let gameOver = false; // 게암 종료 여부
-  let timeLeft = 100; // 남은 시간 60초
+  let timeLeft = 120; // 남은 시간 60초
   let congratsMessage = "";
   let congratsImage = "src/assets/2.gif";
   let remainWords = 50; // 남은 단어의 개수를 초기화

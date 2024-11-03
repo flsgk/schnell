@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { words } from "../hardword.js";
+  import { words } from "../normalword.js";
 
   let randomWords = Array(50).fill(""); //50개의 빈 문자열로 초기화
   let matchedWord = new Set(); // 맞춘 단어를 누적해서 저장

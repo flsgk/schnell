@@ -6,11 +6,15 @@
   import Signup from "./pages/Signup.svelte";
   import Router from "svelte-spa-router";
   import PlayHard from "./pages/PlayHard.svelte";
+  import PlayNormal from "./pages/PlayNormal.svelte";
+  import PlayEasy from "./pages/PlayEasy.svelte";
   import "./CSS/main.css";
 
   const routes = {
     "/": Main,
     "/playhard": PlayHard,
+    "/playnormal": PlayNormal,
+    "/playeasy": PlayEasy,
     "/login": Login,
     "/signup": Signup,
     "/*": NotFound,
