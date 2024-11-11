@@ -28,3 +28,44 @@
     <button type="submit">회원가입</button>
   </div>
 </form>
+
+<style>
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  input[type="text"] {
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+  }
+
+  input[type="password"] {
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+  }
+
+  input[type="email"] {
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+  }
+
+  button {
+    background-color: pink;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+</style>

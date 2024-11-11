@@ -59,15 +59,16 @@
     </div>
   </main>
 
-  <img src="src/assets/_.gif" alt="" />
+  <img src="/assets/_.gif" alt="" />
 </div>
 
 <style>
   :root {
+    background-color: black;
+    color: white;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
   }
 
   .button-container {
@@ -108,6 +109,10 @@
     border-radius: 10px;
     background-color: palevioletred;
     cursor: pointer;
+  }
+
+  .level {
+    font-size: 40px;
   }
 
   .level-btn {
